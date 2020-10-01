@@ -69,7 +69,6 @@ public class PlantUmlImagePanelSvg extends JPanel implements Disposable {
     public PlantUmlImagePanelSvg(ImageItem imageWithData, int i, RenderRequest renderRequest) {
         this.imageWithData = imageWithData;
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-
         setup(this.imageWithData, i, renderRequest);
     }
 
